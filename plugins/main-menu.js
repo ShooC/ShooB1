@@ -197,8 +197,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
    {
 	title: `${htki} ▮𝗦𝘁𝗮𝘁𝘂𝘀 」 ${htka}`,
 	rows: [
-	    {title: `📛)ഒ Info Bot`, rowId: ".info", description: "✧ Info nya Fangz BOT ><"},
-	    {title: `💌)ഒ Creator`, rowId: ".owner", description: "✧ Ini Room Developer ku ^~^"},
+	    {title: `📛)ഒ Info Bot`, rowId: ".info", description: "✧ Info Tentang Sho Bot"},
+	    {title: `💌)ഒ Creator`, rowId: ".owner", description: "✧ Ini Room Developer ku"},
 	{title: `💻)ഒ Bot Stats`, rowId: ".botinfo", description: "✧ Menampilkan Status"},
 	{title: `📊)ഒ Test Speed`, rowId: ".testspeed", description: "✧ Test Install Speed BOT"},
 	{title: `⚡)ഒ Speed`, rowId: ".speed", description: "✧ Kecepatan Respon Bot..."},
@@ -206,17 +206,16 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
     },{
 	title: `${htki} ▮𝗖𝗮𝘁𝗲𝗴𝗼𝗿𝘆 」 ${htka}`,
 	rows: [
-	    {title: `🔖 〉ɞ 『 Sewa BOT 』`, rowId: ".sewa", description: "✧ Menampilkan list harga sewa BOT"},
-	    {title: `📑 〉ɞ 『 Buy Script BOT 』`, rowId: ".owner", description: "✧ Menampilkan list harga script BOT"},
+	    {title: `💀 〉ɞ 『 Sewa BOT 』`, rowId: ".sewa", description: "✧ Menampilkan list harga sewa bot ini"},
 	    {title: `🌟 〉ɞ 『 UP Premium 』`, rowId: ".premium", description: "✧ Menampilkan list harga upgrade premium"},
-	    {title: `🥞 〉ɞ 『 Get Hadiah 』`, rowId: ".daily", description: '✧ Mau hadiah nggak kak?... >.<'},
+	    {title: `🥞 〉ɞ 『 Get Hadiah 』`, rowId: ".daily", description: '✧ Mau hadiah nggak kak?'},
 	{title: `✨ 〉ɞ 『 Rating 』`, rowId: ".rate", description: '✧ Jangan kasih rate rendah dong :/'},
-	{title: `🗳️ 〉ɞ 『 My Profile 』`, rowId: ".pp", description: '✧ Siapa ya kamu?...'},
+	{title: `🌦️ 〉ɞ 『 Profil Saya 』`, rowId: ".pp", description: '✧ Siapa ya kamu?...'},
 	]
 	},{
 	title: `${htki} ▮𝗠𝗲𝗻𝘂 ${htka}`,
 	rows: [
-	    {title: `⫹🗒️ › 𐐪-〚 All Menu 〛-𐑂`, rowId: ".? all", description: "╰► Waduhh. Langsung semuanya (≧▽≦)"},
+	    {title: `⫹🗒️ › 𐐪-〚 All Menu 〛-𐑂`, rowId: ".? all", description: "╰► Waduhh. Langsung semuanya hehehe"},
 	    {title: `⫹🌱 › 𐐪-〚 Rpg 〛-𐑂`, rowId: ".? rpg", description: "╰► Calon anak petualang nih... -𐑂"},
 	{title: `⫹✨ › 𐐪-〚 Exp 〛-𐑂`, rowId: ".? xp", description: "╰► Kalau dah level 100 dapat hadiah (≧▽≦)"},
 	{title: `⫹🎮 › 𐐪-〚 Game 〛-𐑂`, rowId: ".? game", description: "╰► Bg kamu main game apa?.... >-<"},
@@ -238,9 +237,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `⫹🗃️️ › 𐐪-〚 Database 〛-𐑂`, rowId: ".? database", description: "╰► Simpen apa tuh.... >.<"},
 	{title: `⫹🧰️ › 𐐪-〚 Tools 〛-𐑂`, rowId: ".? tools", description: "╰► Butuh apa aja bot akan bantu -𐑂"},
 	{title: `️️⫹📊️ › 𐐪-〚 Info 〛-𐑂`, rowId: ".? info", description: "╰► Info lowker kak?..."},
-	{title: `⫹👩‍💻 › 𐐪-〚 Owner 〛-𐑂`, rowId: ".? owner", description: "╰► Yg bukan developer gausah nge klik fitur ini !"},
+	{title: `⫹🩸 › 𐐪-〚 Owner 〛-𐑂`, rowId: ".? owner", description: "╰► Yg bukan developer gausah nge klik fitur ini !"},
 	{title: `⫹🎨 › 𐐪-〚 Maker 〛-𐑂`, rowId: ".? maker", description: "╰► Bikin logo apa ya enaknya?"},
-	{title: `⫹💌 › 𐐪-〚 Store 〛-𐑂`, rowId: ".? store", description: "╰► Anak jebeh ya kamu kak?"},
+	{title: `⫹🏬 › 𐐪-〚 Store 〛-𐑂`, rowId: ".? store", description: "╰► Anak jebeh ya kamu kak?"},
 	{title: `⫹🔥 › 𐐪-〚 Virtex 〛-𐑂`, rowId: ".? virus", description: "╰► Jangan kak bahaya -𐑂"},
 	]
     },{
@@ -252,9 +251,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	    {title: `🔭 ∫ » Script «`, rowId: ".sc", description: `✧ Source Code ${namebot}`},
 	    {title: `📮 ∫ » Rules «`, rowId: ".rules", description: `✧ Peraturan menggunakan ${namebot}`},
 	    {title: `💰 ∫ » Donasi «`, rowId: ".donasi", description: '✧ Support BOT agar on 1 Minggu non stop'},
-	  {title: `✨ ∫ » Rating «`, rowId: ".rate", description: '✧ Support BOT agar Semangat update'},
-	  {title: `🌸 ∫ » Group «`, rowId: ".groupbot", description: '✧ Jangan lupa mampir ya...'},
-	  {title: `🎖️ ∫ » Thanks To «`, rowId: ".tqto", description: '✧ Kawan-kawan Yg membantu pembuatan bot ini...'},
+
+
 	  {title: `☎️ ∫ » Kata Penutup «`, rowId: ".galau", description: '✧ Terima kasih yang udah menggunakan bot ini dengan baik (≧▽≦)'},
       ]
     },
@@ -271,7 +269,7 @@ let usrs = db.data.users[m.sender]
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
  
 let tek = `
-  「 FANGZBOT-MD ⁩㊣ 」
+  「 Sho Bot ⁩㊣ 」
 
  ╭──〔  𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑  〕─⬣ 
  │⬡ User :  *${await conn.getName(m.sender)}*
@@ -293,7 +291,7 @@ let tek = `
 `
 const listMessage = {
   text: tek,
-  footer: '© FANGZ XD | ALL RESERVED',
+  footer: 'SHO BOT | SHO',
   mentions: await conn.parseMention(tek),
   title: ``,
   buttonText: `LIST MENU`,
@@ -527,21 +525,17 @@ let buttonMessage = {
 	'buttons': [{
 		'buttonId': '.report',
 		'buttonText': {
-			'displayText': '🍭CUSTOMER SERVICE'
+			'displayText': 'Customer Service'
 		},
 		'type': 1
 	}, {
 		'buttonId': '.testspeed',
 		'buttonText': {
-			'displayText': '🥞SPEED NET'
+			'displayText': 'Speed Net'
 		},
 		'type': 1
-	}, {
-		'buttonId': '.sc',
-		'buttonText': {
-			'displayText': '📑SCRIPT BOT'
-		},
-		'type': 1
+
+
 	}],
 	'headerType': 6
 };
@@ -585,12 +579,12 @@ function _0x1766() {
             fileLength: fsizedoc,
             pageCount: fpagedoc,
             caption: text,
-            footer: titlebot + '\n⚡ Supported By Fangz TEAM',
+            footer: titlebot + '\n⚡ Supported By Sho Team',
             templateButtons: [
                 {
                     urlButton: {
                         displayText: `${namebot}`,
-                        url: 'https://fangzbot.websites.co.in/'
+                        url: 'nekopoi.care'
                     }
                 },
                 {
@@ -609,12 +603,6 @@ function _0x1766() {
                     quickReplyButton: {
                         displayText: '🌹Author',
                         id: '.nameown'
-                    }
-                },
-                {
-                    quickReplyButton: {
-                        displayText: '🎀Version Bot',
-                        id: '.versibot'
                     }
                 },
             ]
