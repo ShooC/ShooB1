@@ -56,13 +56,13 @@ let handler = async function (m, { text, usedPrefix, command }) {
 ┗━━━━━━━━━━━━━━━━━━㉿
 ┏━━〔 ıll CONTOH llı 〕━㉿
 ⬡ #daftar namamu.umurmu
-⬡ #daftar ${conn.getName(m.sender)}.17
+⬡ #daftar ${conn.getName(m.sender)}.18
 ┗━━━━━━━━━━㉿ 
 ⫹⫺ 
 ⫹⫺`, 
-   footer: `┗ © FangzXD*`, 
+   footer: `By Sho Bot`, 
    title: "", 
-   buttonText: "CLICK HERE", 
+   buttonText: "Klik", 
    sections 
  } 
   
@@ -87,10 +87,9 @@ let handler = async function (m, { text, usedPrefix, command }) {
  ╭━━━━「 *BERHASIL* 」
  ❖ Terima kasih ${name} Sudah mendaftar
 Di Database kami
- ❖ © FANGZ BOT || ALL RESERVED
 
  ╭━━━━「 *DATA* 」
- ┊⫹ *Sucsess ☑️* 】Status
+ ┊⫹ *Suksess
  ┊⫹ *${name}* 】Nama
  ┊⫹ *${age}* 】Umur/Age                                          
  ╰═┅═━––––––๑
@@ -124,8 +123,8 @@ Nomor akan di banned!.
  'caption':cap, 
  'footer':botdate, 
  'buttons':[ 
- {'buttonId':'.ref','buttonText':{'displayText':'❍REFERAL'},'type':1}, 
- {'buttonId':'.menu','buttonText':{'displayText':'❍LIST MENU'},'type':1} 
+ {'buttonId':'.ref','buttonText':{'displayText':'REFERAL'},'type':1}, 
+ {'buttonId':'.menu','buttonText':{'displayText':'LIST MENU'},'type':1} 
  ], 
  'headerType':6} 
      await conn.sendMessage(m.chat,buttonMessage, { quoted:m}) 
