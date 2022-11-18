@@ -45,7 +45,7 @@ global.povo = '088215689772' //Ovo
 global.pgopay = '088215689772' //Gopay
 global.ppulsa = '088215689772' //Pulsa 
 global.ppulsa2 = '0895394988123' //Pulsa, Kalau nomor cuma 1, yg ini kasih tanda -
-global.psaweria = 'https://saweria.co/FangzBot' //Saweria
+global.psaweria = 'https://saweria.co' //Saweria
 global.donate = '〔 Dᴏɴᴛ ғᴏʀɢᴇᴛ Dᴏɴᴀᴛɪᴏɴ 〕\n\n››╭─〘 *Donasi* 〙\n╭╡📮: Donasi kak jangan make bot doang.│\n┝‷✧ *Ovo:* -\n│┝‷✧ *Dana:* 6285607831412\n│┝‷✧ *Gopay:* 6285607831412\n│╰───···─────\n│⁺◛˖ Ingin Donasi? Chat nomor owner\n╰──────────···───╮'
 
 /*⫘⫘⫘⫘ GLOBAL NOMOR ⫘⫘⫘⫘⫘*/
@@ -144,13 +144,13 @@ global.xckey = 'BOhjM2hUVn'
 
 /*⫘⫘⫘⫘ WATERMAK ⫘⫘⫘⫘⫘*/
 //GANTI JANGAN NGASAL.
-global.wm = '                「 赤 FANGZ - BOT ⁩இ 」' //Wm
-global.wm2 = '➳༻❀Fangz - Ganz❁ུ۪۪.;:୭̥.' //Name Wm
-global.wm3 = '赤 FANGZ - BOT'
+global.wm = '                「 赤 Sho Bot Whatsapp ⁩இ 」' //Wm
+global.wm2 = '➳༻❀ S H O❁ུ۪۪.;:୭̥.' //Name Wm
+global.wm3 = '赤 Sho Bot'
 global.hiasan = '꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦'
-global.botdate = `🗓️️ 𝗗𝗮𝘁𝗲: ${week} ${date}`
-global.bottime = `𝗪𝗔𝗞𝗧𝗨 : ${wib}`
-global.titlebot = '𝗬𝗧: FangzXD' //Ganti serah lu
+global.botdate = `Tanggal: ${week} ${date}`
+global.bottime = `Waktu : ${wib}`
+global.titlebot = 'Sho Bot By Sho' //Ganti serah lu
 
 /*⫘⫘⫘⫘ LOGO ⫘⫘⫘⫘⫘*/
 // INI JUGA GANTI SETERAH MU
@@ -503,12 +503,12 @@ global.fsizedoc = '1'.repeat(10)
 global.fpagedoc = '1'.repeat(10)
 
 /*⫘⫘⫘⫘ STICKER ⫘⫘⫘⫘⫘*/
-global.stickpack = 'YT: FangzXD'
-global.stickauth = `© Fangz BOT\nOfficial by Whatsapp\nNomor: ${global.nomorbot}`
-global.packname = 'By FangzXD'
+global.stickpack = 'By Sho Bot'
+global.stickauth = `Original By Sho`
+global.packname = 'By Sho Bot'
 
 
-global.multiplier = 38 // The higher, The harder levelup
+global.multiplier = 50 // The higher, The harder levelup
 
 /*⫘⫘⫘⫘ GLOBAL EMOJI ⫘⫘⫘⫘⫘*/
 global.rpg = {
