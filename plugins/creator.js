@@ -5,13 +5,13 @@ let handler = async (m, { conn, text, usedPrefix }) => {
     let sewa = `
   〔 llı OWNER ${namebot} ıll 〕
     
-Nama: ${nameowner}
+Nama: Sho
 
-Umur: ${umurowner}
+Umur: 16
 
-Asal: ${asalowner}
+Asal: Isekai
 
-Pacar: ${pacarowner}
+Pacar: Kamu Nanyyak
 
 Nomor: ${nomorowner}
 
